@@ -14,7 +14,7 @@ function Products() {
       <Card.Img style={{height:"250px"}} variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0NcludHAxXy0qXNVUy8ErN2F-JkIfxfivTO8GQZV-wg&s=10" />
       <Card.Body className='text-center'>
         <Card.Title>PERFUME</Card.Title>
-        <Link to={`/products/:id`} className='btn btn-primary'>View More</Link>
+        <Link to={`/products/:id`} className='btn btn-secondary'>View More</Link>
       </Card.Body>
     </Card>
 
